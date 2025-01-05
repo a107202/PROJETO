@@ -16,7 +16,7 @@ def salvarDados(dados, ficheiro="ataMedicaPapers.json"):
         print(f"Erro ao salvar dados no ficheiro {ficheiro}: {e}")
 
 # Carregar dados no início do programa
-dados = carregaDADOS("C:/Users/Inês Mesquita/Documents/Eng_Biomédica/Programação/Projeto/ataMedicaPapers.json")
+dados = carregaDADOS("/Users/teresaribeiro/Desktop/Algoritmos e técnicas de programação/Projeto/ataMedicaPapers.json")
 # ----------------------------------------------------------------------
 # (1) Função para CRIAR uma nova publicação
 def criarPublicacao():
